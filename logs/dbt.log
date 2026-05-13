@@ -1,0 +1,61 @@
+[0m02:40:56.266769 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1087b1160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a483750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a483b10>]}
+
+
+============================== 02:40:56.271491 | 0565d462-003e-4a64-a4f2-980a14792f76 ==============================
+[0m02:40:56.271491 [info ] [MainThread]: Running with dbt=1.11.9
+[0m02:40:56.272081 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt init youtube_dw', 'target_path': 'None', 'quiet': 'False', 'log_path': 'logs', 'warn_error': 'None', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'profiles_dir': '/Users/sajin/.dbt', 'write_json': 'True', 'fail_fast': 'False', 'printer_width': '80', 'static_parser': 'True', 'partial_parse': 'True', 'use_colors': 'True', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'no_print': 'None', 'version_check': 'True'}
+[0m02:40:56.285218 [info ] [MainThread]: Creating dbt configuration folder at /Users/sajin/.dbt
+[0m02:40:56.286539 [debug] [MainThread]: Starter project path: /opt/anaconda3/lib/python3.13/site-packages/dbt/include/starter_project
+[0m02:40:56.292483 [info ] [MainThread]: 
+Your new dbt project "youtube_dw" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m02:40:56.292850 [info ] [MainThread]: Setting up your profile.
+[0m02:43:44.437166 [info ] [MainThread]: Profile youtube_dw written to /Users/sajin/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m02:43:44.442793 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 168.24005, "process_in_blocks": "0", "process_kernel_time": 0.244279, "process_mem_max_rss": "122667008", "process_out_blocks": "0", "process_user_time": 1.070437}
+[0m02:43:44.443858 [debug] [MainThread]: Command `dbt init` succeeded at 02:43:44.443627 after 168.24 seconds
+[0m02:43:44.444452 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10aa442b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1085571d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a569040>]}
+[0m02:43:44.444908 [debug] [MainThread]: Flushing usage events
+[0m02:43:45.939785 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m02:45:26.075911 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113eb1160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1168a7750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1168a7b10>]}
+
+
+============================== 02:45:26.080268 | a692a639-3300-4f0a-a2d8-33e924804587 ==============================
+[0m02:45:26.080268 [info ] [MainThread]: Running with dbt=1.11.9
+[0m02:45:26.080775 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'target_path': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'introspect': 'True', 'static_parser': 'True', 'warn_error': 'None', 'debug': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_experimental_parser': 'False', 'quiet': 'False', 'profiles_dir': '/Users/sajin/.dbt', 'use_colors': 'True', 'printer_width': '80', 'empty': 'None', 'log_path': 'logs', 'log_cache_events': 'False', 'log_format': 'default', 'write_json': 'True', 'no_print': 'None', 'invocation_command': 'dbt init youtube_dw', 'send_anonymous_usage_stats': 'True'}
+[0m02:45:26.094737 [debug] [MainThread]: Starter project path: /opt/anaconda3/lib/python3.13/site-packages/dbt/include/starter_project
+[0m02:45:26.100272 [info ] [MainThread]: 
+Your new dbt project "youtube_dw" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m02:45:26.100540 [info ] [MainThread]: Setting up your profile.
+[0m02:46:32.588238 [info ] [MainThread]: Profile youtube_dw written to /Users/sajin/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m02:46:32.593544 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 66.57571, "process_in_blocks": "0", "process_kernel_time": 0.215071, "process_mem_max_rss": "122060800", "process_out_blocks": "0", "process_user_time": 1.029394}
+[0m02:46:32.594405 [debug] [MainThread]: Command `dbt init` succeeded at 02:46:32.594262 after 66.58 seconds
+[0m02:46:32.594910 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x116d4c2b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113c571d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x116991040>]}
+[0m02:46:32.595351 [debug] [MainThread]: Flushing usage events
+[0m02:46:33.800422 [debug] [MainThread]: An error was encountered while trying to flush usage events
