@@ -1,0 +1,36 @@
+version: 2
+
+models:
+  - name: stg_youtube_trending
+    description: "Cleaned YouTube trending videos from raw layer"
+    columns:
+      - name: video_id
+        description: "Unique ID of the video"
+        tests:
+          - not_null
+          - unique
+
+      - name: title
+        description: "Title of the video"
+        tests:
+          - not_null
+
+      - name: channel_id
+        description: "ID of the channel"
+        tests:
+          - not_null
+
+      - name: view_count
+        description: "Number of views"
+        tests:
+          - not_null
+
+      - name: like_count
+        description: "Number of likes"
+        tests:
+          - not_null
+
+      - name: category_id
+        description: "Category ID of the video"
+        tests:
+          - not_null
